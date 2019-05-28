@@ -83,6 +83,105 @@
 
     </div>
 
+    <p class="cont">CONTACT US</p>
+    <div class="contact">
+        <div class="row">
+            <div class="col">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Name</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1"
+                            placeholder="Enter name..">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Phone No:</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="98...">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">subject</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+                    </div>
+
+                    <h6>Message:</h6>
+                    <textarea placeholder="Add comment........"></textarea>
+
+                    <div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+
+
+
+
+
+                </form>
+            </div>
+
+
+
+
+
+            <div class="col md-6">
+                <p class="cont">MAP</p>
+
+
+                <div id="googleMap" style="width:100%;height:400px;"></div>
+                <script>
+                    function myMap() {
+                        var mapProp = {
+                            center: new google.maps.LatLng(51.508742, -0.120850),
+                            zoom: 5,
+                        };
+                        var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+                    }
+                </script>
+
+                <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <footer id="footer">
         <div class="container">
